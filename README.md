@@ -1,75 +1,69 @@
-# Urban Routes - Sprint 3: Web Application Testing Project
+# Urban Routes - Sprint 3
 
-Author: Glenio Filho.    
+Welcome to the **Sprint 3** test project for the Urban Routes application.
+This project is focused on testing the web application interface and car sharing feature.
 
----
+## Project Goal
 
-## 🧾 About This Project
+In this sprint, we tested the **car sharing functionality** and checked the UI layout in different browsers and screen resolutions.
 
-This is a testing project for **Sprint 3**.  
-The goal is to test the **car sharing feature** of the Urban Routes web application.
-
----
-
-## 💻 Test Environments
-
-| Browser | Resolution |
-|---------|------------|
-| Google Chrome | 800x600 |
-| Mozilla Firefox | 1920x1080 |
+Test Environments:
+- Google Chrome (800x600 resolution)
+- Mozilla Firefox (1920x1080 resolution)
 
 ---
 
-## 📊 Test Documentation
+## Project Files
 
-This project contains **4 Excel files** with all test steps and results.
-
-| File Name | Description |
-|-----------|-------------|
-| `1_Checklist_Layout.xlsx` | Checklist for layout verification. |
-| `2_Checklist_PaymentMethod_AddCard.xlsx` | Checklist for payment and add card windows. |
-| `3_TestCases_ReserveButton.xlsx` | Test cases for the Reserve button. |
-| `4_TestCases_CarRental.xlsx` | Test cases for the Car Rental function. |
-
----
-
-## 🐞 Bug Reports
-
-All test results are marked as: `APPROVED`, `REJECTED` or `BLOCKED`.  
-Rejected tests have bug reports in **Jira**.
-
-Example:
-
-| № | Test Description | Chrome | Firefox | Bug Report |
-|---|-------------------|--------|---------|------------|
-| 2 | The text "PLATAFORMA" is visible next to logo. | Rejected | Rejected | [KAN-25](https://gleniofilhoo.atlassian.net/browse/KAN-25) |
+| File Name                                     | Description                               |
+|----------------------------------------------|-------------------------------------------|
+| `README.md`                                  | This file. Project information.           |
+| `1_Checklist_Layout.xlsx`                    | Layout test checklist.                    |
+| `2_Checklist_PaymentMethod_AddCard.xlsx`     | Payment method and add card checklist.    |
+| `3_TestCases_ReserveButton.xlsx`             | Reserve button test cases.                |
+| `4_TestCases_CarRental.xlsx`                 | Car rental test cases.                    |
 
 ---
 
-## 📝 Conclusion
+## What we tested
 
-During the tests, I found some UI design errors and functional bugs.  
-I reported all bugs in Jira and linked them inside the Excel files.
+- 🧾 **Layout Check**:
+We tested page elements, correct design positions, texts, and icons according to Figma.
 
-💡 My opinion:  
-The application needs some corrections before going live for users.
+- 💳 **Payment Method & Add Card**:
+We checked the behavior of the payment form and card adding process.
 
----
+- 🚗 **Reserve Button**:
+We tested the "Reserve" button flow, including positive and negative scenarios.
 
-## 📂 Repository Files
-
-| File | Description |
-|------|-------------|
-| `README.md` | This file. Project information. |
-| `1_Checklist_Layout.xlsx` | Layout test checklist. |
-| `2_Checklist_PaymentMethod_AddCard.xlsx` | Payment method and add card checklist. |
-| `3_TestCases_ReserveButton.xlsx` | Reserve button test cases. |
-| `4_TestCases_CarRental.xlsx` | Car rental test cases. |
-| `Bug-Reports.md` (optional) | Extra bug report list. |
+- 📋 **Car Rental Functionality**:
+We tested the full booking process, vehicle selection, and popup behavior.
 
 ---
 
-## 🎯 Goal
+## How to Use
 
-This project was created for my **QA testing training — Sprint 3**.  
-Thanks for checking! 😊
+1. Download all `.xlsx` files.
+2. Open each file to check the checklist or test cases.
+3. Review the bug reports linked in the spreadsheets (Jira links).
+
+---
+
+## Notes
+
+- Tests were executed manually.
+- If the status is `FAILED`, the bug was reported in Jira and linked directly in the test results.
+- Some known missing features (example: driver license timer) were skipped as planned.
+
+---
+
+## Author
+
+**Glenio Filho**  
+QA Student | Sprint 3 Project  
+Urban Routes Web Application
+
+---
+
+Thanks for visiting this repository! 🚗💻
+
