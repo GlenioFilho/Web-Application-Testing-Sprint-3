@@ -1,25 +1,17 @@
 # Urban Routes - Sprint 3: Web Application Testing Project
 
-Author: Glenio Filho.  
-Class: QA-15. 
+Author: Glenio Filho.    
 
 ---
 
 ## 🧾 About This Project
 
-This is the testing project for **Sprint 3**.  
-The target is to test the **car sharing feature** of the Urban Routes web application.
-
-The main goals are:  
-- Check the user interface layout.  
-- Test the car reservation function.  
-- Report bugs to Jira.
+This is a testing project for **Sprint 3**.  
+The goal is to test the **car sharing feature** of the Urban Routes web application.
 
 ---
 
 ## 💻 Test Environments
-
-Tests were done in two environments:
 
 | Browser | Resolution |
 |---------|------------|
@@ -28,23 +20,23 @@ Tests were done in two environments:
 
 ---
 
-## ✅ Test Plan
+## 📊 Test Documentation
 
-This project used **checklists** and **test cases**.
+This project contains **4 Excel files** with all test steps and results.
 
-| Document | Description |
-|----------|-------------|
-| `1. Checklist do Layout` | Check the design of the form and map. |
-| `2. Checklist Payment Method / Add Card` | Check the payment and card form fields. |
-| `3. Test Cases - Reserve Button` | Test the reservation button behavior. |
-| `4. Test Cases - Car Rental` | Test the full car reservation flow. |
+| File Name | Description |
+|-----------|-------------|
+| `1_Checklist_Layout.xlsx` | Checklist for layout verification. |
+| `2_Checklist_PaymentMethod_AddCard.xlsx` | Checklist for payment and add card windows. |
+| `3_TestCases_ReserveButton.xlsx` | Test cases for the Reserve button. |
+| `4_TestCases_CarRental.xlsx` | Test cases for the Car Rental function. |
 
 ---
 
 ## 🐞 Bug Reports
 
-All bugs found were registered in **Jira**.  
-Each test result has a status: **Approved / Rejected / Blocked**.
+All test results are marked as: `APPROVED`, `REJECTED` or `BLOCKED`.  
+Rejected tests have bug reports in **Jira**.
 
 Example:
 
@@ -52,32 +44,32 @@ Example:
 |---|-------------------|--------|---------|------------|
 | 2 | The text "PLATAFORMA" is visible next to logo. | Rejected | Rejected | [KAN-25](https://gleniofilhoo.atlassian.net/browse/KAN-25) |
 
-All bugs are linked in the `Test-Results-Sprint3.xlsx` file.
-
 ---
 
 ## 📝 Conclusion
 
-As a tester, I found many UI problems and some functional errors.  
-All bugs are reported and the links are in the Excel file.
+During the tests, I found some UI design errors and functional bugs.  
+I reported all bugs in Jira and linked them inside the Excel files.
 
-In my opinion:  
-- The app needs some improvements before real users can use it.  
-- Most errors are design and layout problems.
+💡 My opinion:  
+The application needs some corrections before going live for users.
 
 ---
 
-## 📂 Files in This Repository
+## 📂 Repository Files
 
 | File | Description |
 |------|-------------|
-| `README.md` | This file. Project description. |
-| `Test-Results-Sprint3.xlsx` | Test checklists and test cases with results. |
-| `Bug-Reports.md` (optional) | Bug descriptions (if needed). |
+| `README.md` | This file. Project information. |
+| `1_Checklist_Layout.xlsx` | Layout test checklist. |
+| `2_Checklist_PaymentMethod_AddCard.xlsx` | Payment method and add card checklist. |
+| `3_TestCases_ReserveButton.xlsx` | Reserve button test cases. |
+| `4_TestCases_CarRental.xlsx` | Car rental test cases. |
+| `Bug-Reports.md` (optional) | Extra bug report list. |
 
 ---
 
 ## 🎯 Goal
 
-This project is part of my **QA testing training** for Sprint 3.  
-Thanks for reading! 😊
+This project was created for my **QA testing training — Sprint 3**.  
+Thanks for checking! 😊
