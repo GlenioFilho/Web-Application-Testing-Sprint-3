@@ -1,62 +1,90 @@
-# Layout Test - Checklist with Results
+# Checklist e Resultados de Teste – Teste de Layout
 
-## Urban Routes Homepage
+**Sprint:** 3  
+**Projeto:** Urban Routes – Car Sharing  
+**Ambientes testados:**
+- Google Chrome (800x600)
+- Mozilla Firefox (1920x1080)
 
-| Nº  | Description of Review                                                                                     | Chrome (800x600) | Firefox (1920x1080) | Bug Report Link                                                 |
-|-----|-----------------------------------------------------------------------------------------------------------|------------------|---------------------|----------------------------------------------------------------|
-| 1   | When accessing Urban.Routes, the "From" and "To" fields are empty.                                        | Approved         | Approved            |                                                                |
-| 2   | The name "PLATFORM" is displayed next to the Urban.Routes website logo.                                    | Rejected         | Rejected            | [KAN-25](https://gleniofilhoo.atlassian.net/browse/KAN-25)     |
-| 3   | The Urban.Routes website logo is displayed when accessing the site.                                       | Approved         | Approved            |                                                                |
-| 4   | Two circles (red and blue) are displayed next to the "From" and "To" fields, indicating the addresses.     | Approved         | Approved            |                                                                |
-| 5   | When typing invalid addresses, the fields turn red, indicating that a valid address is required.          | Approved         | Approved            |                                                                |
+---
 
-## Personal Mode Layout
+## 📋 Página Inicial – Urban Routes
 
-| Nº  | Description of Review                                                                                     | Chrome (800x600) | Firefox (1920x1080) | Bug Report Link                                                 |
-|-----|-----------------------------------------------------------------------------------------------------------|------------------|---------------------|----------------------------------------------------------------|
-| 1   | When typing addresses in the "From" and "To" fields and selecting Personal mode, a typo appears in the fare description text. | Rejected         | Rejected            | [KAN-26](https://gleniofilhoo.atlassian.net/browse/KAN-26)     |
-| 2   | The "Reserve" button is exactly the same size as the original design when selecting Personal mode.         | Rejected         | Rejected            | [KAN-27](https://gleniofilhoo.atlassian.net/browse/KAN-27)     |
-| 3   | The example vehicle displayed matches all the characteristics of the original design.                     | Approved         | Approved            |                                                                |
+| # | Descrição da Revisão | Chrome | Firefox | Bug |
+|--|------------------------|--------|---------|-----|
+| 1 | Ao acessar Urban.Routes, os campos "De" e "Para" estão vazios. | Aprovado | Aprovado | — |
+| 2 | O nome "PLATAFORMA" é exibido junto ao logo do site Urban.Routes. | Reprovado | Reprovado | [KAN-25](https://gleniofilhoo.atlassian.net/browse/KAN-25) |
+| 3 | A logo do site Urban.Routes é exibida ao acessar o site. | Aprovado | Aprovado | — |
+| 4 | Dois círculos (vermelho e azul) são exibidos ao lado dos campos "De" e "Para". | Aprovado | Aprovado | — |
+| 5 | Ao digitar endereços inexistentes, os campos ficam vermelhos. | Aprovado | Aprovado | — |
 
-## Map Layout
+---
 
-| Nº  | Description of Review                                                                                     | Chrome (800x600) | Firefox (1920x1080) | Bug Report Link                                                 |
-|-----|-----------------------------------------------------------------------------------------------------------|------------------|---------------------|----------------------------------------------------------------|
-| 1   | When typing addresses in the "From" and "To" fields and selecting Personal mode, the route is displayed on the map with the address names located on the map. | Rejected         | Rejected            | [KAN-28](https://gleniofilhoo.atlassian.net/browse/KAN-28)     |
-| 2   | Available vehicles are displayed in blue on the map when selecting Personal mode.                         | Rejected         | Rejected            | [KAN-29](https://gleniofilhoo.atlassian.net/browse/KAN-29)     |
-| 3   | The selected vehicle is displayed on the map along with its model when addresses are filled in.            | Rejected         | Rejected            | [KAN-30](https://gleniofilhoo.atlassian.net/browse/KAN-30)     |
-| 4   | The map layout matches the original design.                                                               | Approved         | Approved            |                                                                |
-| 5   | The "+" button in the bottom right corner zooms in on the map.                                            | Approved         | Approved            |                                                                |
-| 6   | The "-" button in the bottom right corner zooms out on the map.                                           | Approved         | Approved            |                                                                |
-| 7   | The "Street View" icon in the bottom right corner performs the expected function when clicked.            | Approved         | Approved            |                                                                |
-| 8   | The "Map" icon in the top left corner allows adding the "Terrain" layer.                                   | Approved         | Approved            |                                                                |
-| 9   | The "Satellite" icon in the top left corner allows adding and disabling icon layers on the map.           | Approved         | Approved            |                                                                |
+## 📋 Layout – Modo Personal
 
-## Casual Fare Layout
+| # | Descrição da Revisão | Chrome | Firefox | Bug |
+|--|------------------------|--------|---------|-----|
+| 1 | Exibe um erro de digitação no texto de validação do campo. | Reprovado | Reprovado | [KAN-26](https://gleniofilhoo.atlassian.net/browse/KAN-26) |
+| 2 | Botão "Reservar" com tamanho incorreto no modo Personal. | Reprovado | Reprovado | [KAN-27](https://gleniofilhoo.atlassian.net/browse/KAN-27) |
+| 3 | Veículo exibido está de acordo com o design. | Aprovado | Aprovado | — |
 
-| Nº  | Description of Review                                                                                     | Chrome (800x600) | Firefox (1920x1080) | Bug Report Link                                                 |
-|-----|-----------------------------------------------------------------------------------------------------------|------------------|---------------------|----------------------------------------------------------------|
-| 1   | When typing addresses in the "From" and "To" fields and selecting Personal mode, three fares are displayed: "Casual", "Camping", and "Luxury". | Approved         | Approved            |                                                                |
-| 2   | When selecting the "Casual" fare, ride information such as the vehicle name is displayed.                 | Approved         | Approved            |                                                                |
-| 3   | When selecting the "Casual" fare, ride information is displayed, but there is a typo in the waiting time.  | Rejected         | Rejected            | [KAN-31](https://gleniofilhoo.atlassian.net/browse/KAN-31)     |
-| 4   | The vehicle design in the Casual reservation does not match the original design.                           | Rejected         | Rejected            | [KAN-32](https://gleniofilhoo.atlassian.net/browse/KAN-32)     |
+---
 
-## Driver's License Layout
+## 📋 Layout – Mapa
 
-| Nº  | Description of Review                                                                                     | Chrome (800x600) | Firefox (1920x1080) | Bug Report Link                                                 |
-|-----|-----------------------------------------------------------------------------------------------------------|------------------|---------------------|----------------------------------------------------------------|
-| 1   | When typing addresses in the "From" and "To" fields, selecting Personal mode, choosing the "Casual" fare, and adding driver's license data, a confirmation icon should appear when the data is correctly added. | Rejected         | Rejected            | [KAN-33](https://gleniofilhoo.atlassian.net/browse/KAN-33)     |
+| # | Descrição da Revisão | Chrome | Firefox | Bug |
+|--|------------------------|--------|---------|-----|
+| 1 | Rota não exibida no mapa com modo Personal. | Reprovado | Reprovado | [KAN-28](https://gleniofilhoo.atlassian.net/browse/KAN-28) |
+| 2 | Veículos não exibidos no mapa com modo Personal. | Reprovado | Reprovado | [KAN-29](https://gleniofilhoo.atlassian.net/browse/KAN-29) |
+| 3 | Veículo selecionado não exibido junto com o endereço. | Reprovado | Reprovado | [KAN-30](https://gleniofilhoo.atlassian.net/browse/KAN-30) |
+| 4 | Layout do mapa conforme design original. | Aprovado | Aprovado | — |
+| 5 | Botão "+" aumenta o zoom do mapa. | Aprovado | Aprovado | — |
+| 6 | Botão "-" reduz o zoom do mapa. | Aprovado | Aprovado | — |
+| 7 | Ícone "Street View" abre função esperada. | Aprovado | Aprovado | — |
+| 8 | Ícone "Mapa" ativa camada "Relevo". | Aprovado | Aprovado | — |
+| 9 | Ícone "Satélite" ativa/desativa camadas corretamente. | Aprovado | Aprovado | — |
 
-## Reserve Button Pop-up Layout
+---
 
-| Nº  | Description of Review                                                                                     | Chrome (800x600) | Firefox (1920x1080) | Bug Report Link                                                 |
-|-----|-----------------------------------------------------------------------------------------------------------|------------------|---------------------|----------------------------------------------------------------|
-| 1   | When filling in all required fields and clicking the "Reserve" button, the phrase "The car has been reserved" is displayed. | Rejected         | Rejected            | [KAN-34](https://gleniofilhoo.atlassian.net/browse/KAN-34)     |
-| 2   | When filling in all required fields and clicking the "Reserve" button, vehicle reservation information is displayed. | Rejected         | Rejected            | [KAN-35](https://gleniofilhoo.atlassian.net/browse/KAN-35)     |
-| 3   | The vehicle design in the reservation window lacks details.                                               | Rejected         | Rejected            | [KAN-36](https://gleniofilhoo.atlassian.net/browse/KAN-36)     |
+## 📋 Layout – Tarifa Casual
 
-## Cancel Button Pop-up Layout
+| # | Descrição da Revisão | Chrome | Firefox | Bug |
+|--|------------------------|--------|---------|-----|
+| 1 | Exibe três tarifas: "Casual" corretamente. | Aprovado | Aprovado | — |
+| 2 | Informações da corrida exibidas corretamente. | Aprovado | Aprovado | — |
+| 3 | Erro de digitação no tempo de espera. | Reprovado | Reprovado | [KAN-32](https://gleniofilhoo.atlassian.net/browse/KAN-32) |
+| 4 | Design do veículo "Casual" não está de acordo com o design. | Reprovado | Reprovado | [KAN-33](https://gleniofilhoo.atlassian.net/browse/KAN-33) |
 
-| Nº  | Description of Review                                                                                     | Chrome (800x600) | Firefox (1920x1080) | Bug Report Link                                                 |
-|-----|-----------------------------------------------------------------------------------------------------------|------------------|---------------------|----------------------------------------------------------------|
-| 1   | When filling in all required fields, clicking the "Reserve" button, and clicking the "Cancel" button, a pop-up window appears with the message "Are you sure you want to cancel the ride?" with options Yes / No. | Blocked          | Blocked             | [KAN-21](https://gleniofilhoo.atlassian.net/browse/KAN-21)     |
+---
+
+## 📋 Layout – Carteira de Motorista
+
+| # | Descrição da Revisão | Chrome | Firefox | Bug |
+|--|------------------------|--------|---------|-----|
+| 1 | Selecionar modo Personal e tarifa "Casual" com falha na exibição. | Reprovado | Reprovado | — |
+
+---
+
+## 📋 Layout – Pop-up Botão Reservar
+
+| # | Descrição da Revisão | Chrome | Firefox | Bug |
+|--|------------------------|--------|---------|-----|
+| 1 | Mensagem "O carro foi reservado" não aparece. | Reprovado | Reprovado | [KAN-34](https://gleniofilhoo.atlassian.net/browse/KAN-34) |
+| 2 | Informações do veículo reservado não exibidas. | Reprovado | Reprovado | [KAN-35](https://gleniofilhoo.atlassian.net/browse/KAN-35) |
+| 3 | Falta de detalhes no layout do pop-up. | Reprovado | Reprovado | [KAN-36](https://gleniofilhoo.atlassian.net/browse/KAN-36) |
+
+---
+
+## 📋 Layout – Pop-up Botão Cancelar
+
+| # | Descrição da Revisão | Chrome | Firefox | Bug |
+|--|------------------------|--------|---------|-----|
+| 1 | Ao clicar em "Cancelar", exibe uma janela inesperada. | Bloqueado | Bloqueado | [KAN-21](https://gleniofilhoo.atlassian.net/browse/KAN-21) |
+
+---
+
+**Status Geral:** Testes realizados manualmente. Vários bugs foram reportados e estão registrados com links diretos para o Jira.
+
+---
+
+🧪 Criado por Glenio Filho – Sprint 3 – Urban Routes Web App  
